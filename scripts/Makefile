@@ -2,7 +2,7 @@
 SHELL := /bin/bash
 
 .PHONY: all
-all: install-pyavd install-collection update-apt install-gh
+all: install-pyavd install-collection update-apt install-gh git-username git-email
 
 .PHONY: install-pyavd
 install-pyavd: ## Install ansible collections
@@ -19,3 +19,11 @@ update-apt: ## Deploy config to CV
 .PHONY: install-gh
 install-gh: ## Deploy config to CV
 	sudo apt install gh
+
+.PHONY: git-username
+git-username: ## Deploy config to CV
+	git config --global user.name "amgadk"
+
+.PHONY: git-email
+git-email: ## Deploy config to CV
+	git config --global user.email "amgadk@amgadk.com"
