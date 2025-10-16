@@ -2,7 +2,7 @@
 spine:
   defaults:
     platform: vEOS-lab
-    bgp_as: 65011
+    bgp_as: 65001
     loopback_ipv4_pool: 192.168.101.0/24
     mlag: false
   nodes:
