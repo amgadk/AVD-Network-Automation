@@ -1,0 +1,763 @@
+[
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyBGPSpecificPeers",
+    "categories": [
+      "bgp"
+    ],
+    "description": "Verifies the health of specific BGP peer(s) for given address families.",
+    "result": "success",
+    "custom_field": "BGP EVPN Peer: dc2-spine1 (IP: 192.168.101.21)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyBGPSpecificPeers",
+    "categories": [
+      "bgp"
+    ],
+    "description": "Verifies the health of specific BGP peer(s) for given address families.",
+    "result": "success",
+    "custom_field": "BGP EVPN Peer: dc2-spine2 (IP: 192.168.101.22)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyBGPSpecificPeers",
+    "categories": [
+      "bgp"
+    ],
+    "description": "Verifies the health of specific BGP peer(s) for given address families.",
+    "result": "success",
+    "custom_field": "BGP IPv4 Unicast Peer: dc1-borderleaf1 (IP: 172.100.100.200)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyBGPSpecificPeers",
+    "categories": [
+      "bgp"
+    ],
+    "description": "Verifies the health of specific BGP peer(s) for given address families.",
+    "result": "success",
+    "custom_field": "BGP IPv4 Unicast Peer: dc2-borderleaf2 (IP: 10.255.251.53)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyBGPSpecificPeers",
+    "categories": [
+      "bgp"
+    ],
+    "description": "Verifies the health of specific BGP peer(s) for given address families.",
+    "result": "success",
+    "custom_field": "BGP IPv4 Unicast Peer: dc2-spine1 (IP: 192.168.203.104)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyBGPSpecificPeers",
+    "categories": [
+      "bgp"
+    ],
+    "description": "Verifies the health of specific BGP peer(s) for given address families.",
+    "result": "success",
+    "custom_field": "BGP IPv4 Unicast Peer: dc2-spine2 (IP: 192.168.203.106)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyLLDPNeighbors",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.",
+    "result": "success",
+    "custom_field": "Local: Ethernet1 - Remote: dc2-spine1 Ethernet7"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyLLDPNeighbors",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.",
+    "result": "success",
+    "custom_field": "Local: Ethernet2 - Remote: dc2-spine2 Ethernet7"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyLLDPNeighbors",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.",
+    "result": "success",
+    "custom_field": "Local: Ethernet20 - Remote: dc1-borderleaf1 Ethernet20"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyLLDPNeighbors",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.",
+    "result": "success",
+    "custom_field": "Local: Ethernet5 - Remote: dc2-borderleaf2 Ethernet5"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyLLDPNeighbors",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.",
+    "result": "success",
+    "custom_field": "Local: Ethernet6 - Remote: dc2-borderleaf2 Ethernet6"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-borderleaf1 Loopback0 (IP: 192.168.101.17)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-borderleaf2 Loopback0 (IP: 192.168.101.18)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-leaf1 Loopback0 (IP: 192.168.101.13)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-leaf2 Loopback0 (IP: 192.168.101.14)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-leaf3 Loopback0 (IP: 192.168.101.15)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-leaf4 Loopback0 (IP: 192.168.101.16)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-spine1 Loopback0 (IP: 192.168.101.11)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc1-spine2 Loopback0 (IP: 192.168.101.12)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-borderleaf1 Loopback0 (IP: 192.168.101.27)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-borderleaf2 Loopback0 (IP: 192.168.101.28)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-leaf1 Loopback0 (IP: 192.168.101.23)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-leaf2 Loopback0 (IP: 192.168.101.24)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-leaf3 Loopback0 (IP: 192.168.101.25)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-leaf4 Loopback0 (IP: 192.168.101.26)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-spine1 Loopback0 (IP: 192.168.101.21)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: Loopback0 (IP: 192.168.101.27) - Destination: dc2-spine2 Loopback0 (IP: 192.168.101.22)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: P2P Interface Ethernet1 (IP: 192.168.203.105) - Destination: dc2-spine1 Ethernet7 (IP: 192.168.203.104)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: P2P Interface Ethernet2 (IP: 192.168.203.107) - Destination: dc2-spine2 Ethernet7 (IP: 192.168.203.106)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReachability",
+    "categories": [
+      "connectivity"
+    ],
+    "description": "Test network reachability to one or many destination IP(s).",
+    "result": "success",
+    "custom_field": "Source: P2P Interface Ethernet20 (IP: 172.100.100.201) - Destination: dc1-borderleaf1 Ethernet20 (IP: 172.100.100.200)"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyEnvironmentCooling",
+    "categories": [
+      "hardware"
+    ],
+    "description": "Verifies the status of power supply fans and all fan trays.",
+    "result": "skipped",
+    "messages": [
+      "VerifyEnvironmentCooling test is not supported on vEOS-lab"
+    ],
+    "custom_field": "Accepted States: 'ok'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyEnvironmentPower",
+    "categories": [
+      "hardware"
+    ],
+    "description": "Verifies the power supplies state and input voltage.",
+    "result": "skipped",
+    "messages": [
+      "VerifyEnvironmentPower test is not supported on vEOS-lab"
+    ],
+    "custom_field": "Accepted States: 'ok'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyTemperature",
+    "categories": [
+      "hardware"
+    ],
+    "description": "Verifies if the device temperature is within acceptable limits.",
+    "result": "skipped",
+    "messages": [
+      "VerifyTemperature test is not supported on vEOS-lab"
+    ]
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyTransceiversManufacturers",
+    "categories": [
+      "hardware"
+    ],
+    "description": "Verifies if all the transceivers come from approved manufacturers.",
+    "result": "skipped",
+    "messages": [
+      "VerifyTransceiversManufacturers test is not supported on vEOS-lab"
+    ],
+    "custom_field": "Accepted Manufacturers: 'Arista Networks', 'Arastra, Inc.', 'Not Present'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Ethernet1 - P2P_dc2-spine1_Ethernet7 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Ethernet2 - P2P_dc2-spine2_Ethernet7 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Ethernet20 - P2P_dc1-borderleaf1_Ethernet20 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Ethernet5 - MLAG_dc2-borderleaf2_Ethernet5 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Ethernet6 - MLAG_dc2-borderleaf2_Ethernet6 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Loopback0 - ROUTER_ID = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Loopback1 - VXLAN_TUNNEL_SOURCE = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Port-Channel5 - MLAG_dc2-borderleaf2_Port-Channel5 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Vlan10 - DMZ = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Vlan20 - Internal = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Vlan3009 - MLAG_L3_VRF_VRF_A = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Vlan3019 - MLAG_L3_VRF_VRF_B = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Vlan4093 - MLAG_L3 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Vlan4094 - MLAG = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyInterfacesStatus",
+    "categories": [
+      "interfaces"
+    ],
+    "description": "Verifies the operational states of specified interfaces to ensure they match expected configurations.",
+    "result": "success",
+    "custom_field": "Interface Vxlan1 = 'up'"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyMlagStatus",
+    "categories": [
+      "mlag"
+    ],
+    "description": "Verifies the health status of the MLAG configuration.",
+    "result": "success"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingProtocolModel",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies the configured routing protocol model.",
+    "result": "success",
+    "custom_field": "Routing protocol model: multi-agent"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.11 - Peer: dc1-spine1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.12 - Peer: dc1-spine2"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.13 - Peer: dc1-leaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.14 - Peer: dc1-leaf2"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.15 - Peer: dc1-leaf3"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.16 - Peer: dc1-leaf4"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.17 - Peer: dc1-borderleaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.18 - Peer: dc1-borderleaf2"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.21 - Peer: dc2-spine1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.22 - Peer: dc2-spine2"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.23 - Peer: dc2-leaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.24 - Peer: dc2-leaf2"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.25 - Peer: dc2-leaf3"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.26 - Peer: dc2-leaf4"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.27 - Peer: dc2-borderleaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.101.28 - Peer: dc2-borderleaf2"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.102.13 - Peer: dc1-leaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.102.15 - Peer: dc1-leaf3"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.102.17 - Peer: dc1-borderleaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.202.23 - Peer: dc2-leaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.202.25 - Peer: dc2-leaf3"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyRoutingTableEntry",
+    "categories": [
+      "routing"
+    ],
+    "description": "Verifies that the provided routes are present in the routing table of a specified VRF.",
+    "result": "success",
+    "custom_field": "Route: 192.168.202.27 - Peer: dc2-borderleaf1"
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyNTP",
+    "categories": [
+      "system"
+    ],
+    "description": "Verifies if NTP is synchronised.",
+    "result": "failure",
+    "messages": [
+      "NTP status mismatch - Expected: synchronised Actual: NTP is disabled."
+    ]
+  },
+  {
+    "name": "dc2-borderleaf1",
+    "test": "VerifyReloadCause",
+    "categories": [
+      "system"
+    ],
+    "description": "Verifies the last reload cause of the device.",
+    "result": "success"
+  }
+]
